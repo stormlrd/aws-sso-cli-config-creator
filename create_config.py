@@ -183,8 +183,8 @@ else: # false = non expired, current session available to use
             config.set(section_name, 'sso_role_name', temp_role_name)
             config.set(section_name, 'region', region)
             config.set(section_name, 'output', output)
-
-    os.remove('config.new') # get rid of any pre-existing files
+    if os.path.exists("config.new"):
+        os.remove('config.new') # get rid of any pre-existing files
     with open('config.new', 'w') as configfile:
         config.write(configfile)
     print("\nFinished.\n\nconfig.new file has been created.")
