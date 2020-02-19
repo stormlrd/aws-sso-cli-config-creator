@@ -175,7 +175,7 @@ else: # false = non expired, current session available to use
         for role in roles["roleList"]:
             temp_role_name = role["roleName"]
             temp_role_accountId = role["accountId"]
-            section_name = "profiel " + temp_account_name + "-" + temp_role_name
+            section_name = "profile " + temp_account_name + "-" + temp_role_name
             config.add_section(section_name)
             config.set(section_name, 'sso_start_url', sso_start_url)
             config.set(section_name, 'sso_region', sso_region)
