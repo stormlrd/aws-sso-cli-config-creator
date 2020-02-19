@@ -1,9 +1,10 @@
 # aws-sso-cli-config-creator
+Are you using AWS CLI v2 with AWS SO
 Sick and tired of having to run aws sso configure --profile myprofilename for each role you have?
 
 Or perhaps sick of just copying and pasting and editing rolenames manually in the config?
 
-This script will scrape your roles from AWS SSO and create a AWS CLI v2 config file for you.
+This script will **scrape** your roles from AWS SSO and create a AWS CLI v2 config file for you.
 
 # Usage:
 1. Clone this repository
@@ -37,3 +38,5 @@ Blog post at dunlop.geek.nz:
 boto3 sdk for sso: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sso.html
 
 aws cli v2 sso configuration: https://docs.amazonaws.cn/en_us/cli/latest/userguide/cli-configure-sso.html
+
+AWS CLI V2 announcement post: https://aws.amazon.com/blogs/developer/aws-cli-v2-is-now-generally-available/
