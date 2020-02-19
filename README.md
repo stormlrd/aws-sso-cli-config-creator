@@ -23,6 +23,7 @@ The script relies on a couple of things:
 1. That you have already logged into AWS SSO using aws sso login --profile primary.
 2. That you have configured your source_config file before running it
 3. The the inital primary role you've specific has permissions to read from AWS SSO using list_account_roles() & list_accounts()
+4. That you have aws cli v2 installed, python3 installed and boto3 library installed for python.
 
 The initial login to aws sso requires that you have set up at least one profile in your config file for the aws cli. refer to the usage instructions.
 
