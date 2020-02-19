@@ -1,5 +1,6 @@
 # aws-sso-cli-config-creator
-Are you using AWS CLI v2 with AWS SO
+Are you using AWS CLI v2 with AWS SSO
+
 Sick and tired of having to run aws sso configure --profile myprofilename for each role you have?
 
 Or perhaps sick of just copying and pasting and editing rolenames manually in the config?
