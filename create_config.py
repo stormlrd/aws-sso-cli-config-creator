@@ -173,6 +173,7 @@ else: # false = non expired, current session available to use
             accountId = account["accountId"]
         )
         temp_account_name = account["accountName"]
+        temp_account_name = account["accountName"].replace(" ","")
         for role in roles["roleList"]:
             temp_role_name = role["roleName"]
             temp_role_accountId = role["accountId"]
